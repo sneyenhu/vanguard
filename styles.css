@@ -1,6 +1,12 @@
-/* CSS BY YOUR NAME */
+/* CSS BY Saige Neyenhuis */
 
 /* IMPORTED FONTS*/
+@font-face {
+	font-family: inter;
+	src: url('inter/inter-variablefont_opsz,wght.ttf');
+}
+
+
 /* IMPORT "INTER" FROM GOOGLE FONTS"
 
 /* CSS RESET */
@@ -64,8 +70,12 @@ table {
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
 
-/* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
+
+/* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
+body{
+    min-width: 400px;
+}
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
 .container {
     width: 90%;

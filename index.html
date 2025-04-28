@@ -3,51 +3,58 @@
 <head>
     <meta charset="UTF-8">
 <!-- ADD META TAG REQUIRED TO MAKE PAGE RESPONSIVE-->
+
     <meta name="description" content="Vanguard- Leading the Future of Success. Premier strategic investment and business acceleration firm for high-growth enterprises.">
     <meta name="keywords" content="business growth, strategic investment, mergers, corporate consulting, digital transformation">
 <!-- ADD META TAG FOR AUTHOR AND YOUR NAME-->
+    <meta name="author" content="Saige Neyenhuis">
     <title>Vanguard | Leading the Future of Success</title>
 <!-- ADD LINK TO YOUR CSS-->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 <!-- WRAP CONTENT IN VALIDATED, SEMANTIC HTML5 (SEE HINTS FOLDER LINKED TO IN THE CANVAS INSTRUCTIONS)-->
-    Vanguard
-        Main Navigation
-            About
-            Services
-            Contact
+    <header>Vanguard</header>
+       <nav> <h2>Main Navigation</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services"></a>Services</a></li>
+            <li><a href="#contact"></a>Contact</a></li>
+        </ul>
+        </nav>
+        <section id="about">
+       <h1> Innovation & Investment</h1>
+        <p>We empower businesses to lead the future with high-impact strategies, market intelligence, and financial solutions that drive success.</p>
+        <a href="#contact">Request a Consultation</a>
 
-        Innovation & Investment
-        We empower businesses to lead the future with high-impact strategies, market intelligence, and financial solutions that drive success.
-        Request a Consultation
-
-        Our Expertise. Your Edge.
-        We redefine success by leveraging AI-driven analytics, market intelligence, and high-yield investment strategies to propel businesses forward. Whether you're looking to scale, optimize, or dominate, our strategic expertise delivers results.'
-
-        What We Offer
-            Strategic Growth Consulting
+        <h1>Our Expertise. Your Edge.</h1>
+        <p>We redefine success by leveraging AI-driven analytics, market intelligence, and high-yield investment strategies to propel businesses forward. Whether you're looking to scale, optimize, or dominate, our strategic expertise delivers results.'</p>
+        </section>
+        <section id="services">
+        <h1>What We Offer</h1>
+            <h2>Strategic Growth Consulting</h2>
             Unlock new revenue streams and optimize market expansion strategies.
 
-            High-Impact Investment Solutions
-            Maximize returns with data-driven portfolio management.
+            <h2>High-Impact Investment Solutions</h2>
+           <p>Maximize returns with data-driven portfolio management.</p>
 
-            Business Acceleration & Mergers
-            Identify opportunities for rapid growth and high-value acquisitions.
+            <h2>Business Acceleration & Mergers</h2>
+            <p>Identify opportunities for rapid growth and high-value acquisitions.</p>
 
-            Digital Transformation
-            Stay at the forefront of industry advancements with AI, blockchain, and automation.
+            <h2>Digital Transformation</h2>
+            <p>Stay at the forefront of industry advancements with AI, blockchain, and automation.</p>
 
-            Exclusive Executive Advisory Services
-            Personalized insights and leadership support for C-suite executives and high-net-worth investors.
+            <h2>Exclusive Executive Advisory Services</h2>
+            <p>Personalized insights and leadership support for C-suite executives and high-net-worth investors.</p>
 
-            Corporate Innovation
-            Strategic implementation of new ideas, technologies, and processes to drive business growth, enhance competitive advantage, and adapt to evolving market demands.
+            <h2>Corporate Innovation</h2>
+            <p>Strategic implementation of new ideas, technologies, and processes to drive business growth, enhance competitive advantage, and adapt to evolving market demands.</p>
 
-            Proven Results
-            Our data-driven strategies have delivered outstanding ROI, leading to significant revenue growth.
+            <h1>Proven Results</h1>
+           <p> Our data-driven strategies have delivered outstanding ROI, leading to significant revenue growth.</p>
 
-                Profits
+                <h1>Profits</h1>
                 Year
                 Revenue ($M)
                 Growth (%)
@@ -81,15 +88,20 @@
                         <div class="bar" data-year="2023" style="--height: 85%;"></div>
                         <div class="bar" data-year="2024" style="--height: 100%;"></div>
                     </div>
-
+</section>
+<section id="contact">
         Contact Us
         Want to take your business to the next level? Get in touch with our elite team today.
 
-            Full Name
+        <label for="name">Full Name<span class="required">*</span></label>
+        <input type="text" name="name" id="name" required>
 
-            Email Address
+        <input type="text" name="Email" id="email" checked>
+        <label for="email">Email Address</label>
+            
 
-            Company Name
+        <label for="company">Company Name<span class="required">*</span></label>
+        <input type="text" name="company" id="company" required>   
 
             Industry
 
@@ -97,6 +109,8 @@
 
             Submit
 
-        2025 Vanguard. All rights reserved. 
-        Email: info@vanguard.com 
-        Phone: 480.123.4567
+        <p>2025 Vanguard. All rights reserved.</p>
+        <p>Email: info@vanguard.com</p>
+        <p>Phone: 480.123.4567</p>
+</section>
+</body>
